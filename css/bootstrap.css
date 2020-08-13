@@ -8075,21 +8075,3 @@ button.close {
         display: none !important
     }
 }
-
-@media (max-width:650px) {
-    
-    .imgtext
-    {
-        width: 90%;
-    }
-}
-
-@media (max-width:768px) {
-    
-    .img-responsive-center
-    {
-        display: flex;
-        justify-content: center;
-        margin-right: 0;
-    }
-}
