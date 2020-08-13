@@ -1040,3 +1040,25 @@ h4 {
         text-align: center;
     }
 }
+
+.title
+{
+    font-size: 1.6em;
+}
+
+.title2
+{
+    font-size: 1.6em;
+}
+
+.citation
+{
+    font-style: italic;
+    font-size: 1.4em;
+}
+
+.citationbis
+{
+    font-style: normal;
+    font-size: 0.75em;
+}
