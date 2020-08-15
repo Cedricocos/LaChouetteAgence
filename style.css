@@ -532,8 +532,9 @@ button {
 
 a[data-lightbox] {
     position: relative;
-    display: block;
+    display: flex;
     text-align: center;
+    justify-content: center;
 }
 
 a[data-lightbox]:hover::before {
@@ -647,8 +648,8 @@ h5,
 h6,
 p,
 label,
-.btn,
-a {
+.btn
+ {
     font-family: "helvetica";
     font-weight: 400;
     color: #575757!important;
@@ -1039,6 +1040,11 @@ h4 {
     .bloc-mob-center-text {
         text-align: center;
     }
+
+    .img-responsive
+    {
+        display: inline!important;
+    }
 }
 
 .title
@@ -1061,4 +1067,24 @@ h4 {
 {
     font-style: normal;
     font-size: 0.75em;
+}
+
+.link
+{
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+@media (max-width: 550px) {
+    .divtext
+    {
+        font-size: 0.8em;
+    }
+}
+
+@media (max-width: 630px) {
+    .divtext2
+    {
+        font-size: 0.75em;
+    }
 }
