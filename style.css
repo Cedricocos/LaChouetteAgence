@@ -553,6 +553,7 @@ a[data-lightbox]:hover::before {
     top: 50%;
     transform: translateY(-50%);
     -webkit-transform: translateY(-50%);
+    padding-top: 3px;
 }
 
 a[data-lightbox]:hover img {
@@ -813,6 +814,7 @@ h4 {
 
 .bg-dots-bg {
     background-image: url("img/dots-bg.png");
+    z-index: -2;
 }
 
 .bg-lines-h2-bg {
@@ -821,7 +823,7 @@ h4 {
 
 .bg-banniere {
     background-image: url("img/la-chouette-agence-banniere.jpg");
-    z-index: -2;
+    z-index: 0;
 }
 
 .bg-presentation {
