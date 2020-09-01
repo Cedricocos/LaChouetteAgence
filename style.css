@@ -1055,6 +1055,13 @@ h4 {
 .title
 {
     font-size: 1.6em;
+    width: 700px;
+}
+
+.titlediv
+{
+    display: flex;
+    justify-content: center;
 }
 
 .title2
@@ -1078,7 +1085,9 @@ h4 {
 {
     color: #FFFFFF;
     text-decoration: none;
-    margin-left: 40%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
 }
 
 @media (max-width: 550px) {
